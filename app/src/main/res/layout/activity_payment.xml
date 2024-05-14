@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/payment"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="215dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-7sp"
+            android:text="@string/payment"
+            android:textAppearance="@style/payment" />
+
+
+
+        <ImageView
+            android:id="@+id/group_2"
+            android:layout_width="118dp"
+            android:layout_height="215dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="287dp"
+            android:src="@mipmap/group_2"
+            android:scaleType="fitCenter"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/group_3"
+            android:layout_width="201dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="153dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="287dp"
+            android:src=""
+            />
+
+
+
+        <View
+            android:id="@+id/group_4"
+            android:layout_width="201dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="153dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="402dp"
+            />
+
+
+
+    </FrameLayout>
+</LinearLayout>
