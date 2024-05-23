@@ -80,7 +80,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\sec\Downloads\Rectangle 2.png" />
+                                                <entry key="imagePath" value="C:\Users\sec\Downloads\cash.png" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -112,10 +113,12 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundLayerName" value="rectangle_2" />
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="ffffff" />
                                       <entry key="generateLegacyIcon" value="false" />
                                       <entry key="generatePlayStoreIcon" value="false" />
                                       <entry key="generateRoundIcon" value="false" />
+                                      <entry key="outputName" value="cash" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -12,55 +13,44 @@
             android:id="@+id/payment"
             android:layout_width="286dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp"
             android:layout_marginTop="215dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="-7sp"
             android:text="@string/payment"
             android:textAppearance="@style/payment" />
 
-
-
-        <ImageView
-            android:id="@+id/group_2"
+        <Button
+            android:id="@+id/card"
             android:layout_width="118dp"
             android:layout_height="215dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp"
-            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="287dp"
-            android:src="@mipmap/group_2"
-            android:scaleType="fitCenter"
-            />
+            android:backgroundTint="#FCC419"
+            android:drawableTop="@mipmap/card"
+            android:text="카드\n신용/체크카드" />
 
-
-
-        <ImageView
-            android:id="@+id/group_3"
+        <Button
+            android:id="@+id/coupon"
             android:layout_width="201dp"
             android:layout_height="100dp"
-            android:layout_alignParentLeft="true"
             android:layout_marginLeft="153dp"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="287dp"
-            android:src=""
-            />
+            android:backgroundTint="@color/white"
+            android:drawableStart="@mipmap/coupon_foreground"
+            android:text="쿠폰/교환권\n지류상품권\n모바일교환권"
+            android:textSize="12sp" />
 
-
-
-        <View
-            android:id="@+id/group_4"
+        <Button
+            android:id="@+id/cash"
             android:layout_width="201dp"
             android:layout_height="100dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="153dp"
-            android:layout_alignParentTop="true"
+            android:layout_marginStart="153dp"
             android:layout_marginTop="402dp"
-            />
-
-
+            android:backgroundTint="@color/white"
+            android:drawableStart="@mipmap/cash_foreground"
+            android:text="현금(후 결제)\n주문 후 제품 수령 시\n카운터에서 결제바랍니다"
+            android:textSize="8sp" />
 
     </FrameLayout>
 </LinearLayout>
